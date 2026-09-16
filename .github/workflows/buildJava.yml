@@ -4,8 +4,10 @@ on:
     branches:
       - main
 jobs:
-runs-on: ubuntu-latest # OS où s'exécute le job
-steps:
+  Exercice2:
+    name: Exercice2
+    runs-on: ubuntu-latest # OS où s'exécute le job
+    steps:
       - name: Checkout du dépôt
         uses: actions/checkout@v4
 
