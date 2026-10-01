@@ -48,7 +48,7 @@ public class ListeSimpleTest {
         listeATester.ajout(1);
         listeATester.ajout(2);
         listeATester.ajout(3);
-        System.out.println(listeATester);
+        assertEquals("(1, 2, 3)", listeATester.toString());
     }
 
     @Test
